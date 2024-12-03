@@ -1,5 +1,4 @@
 # assignment 2
-import numpy as np
 
 # uitlezen text bestandje
 with open('input.txt') as inputfile:    # input lezen en splitten in lines
