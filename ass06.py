@@ -1,4 +1,4 @@
-# assignment 5 ik gebruik hier iets te veel extra libraries
+# assignment 6 ik gebruik hier iets te veel extra libraries
 import math
 import copy
 import time
