@@ -60,13 +60,13 @@ costs2 = []
 for machine in machines2:
     machine.prize.x += 10000000000000
     machine.prize.y += 10000000000000
-    n = min(int(machine.prize.x/machine.b.x),int(machine.prize.y/machine.b.y))
-    for i in range(n,0,-1):
-        if  (machine.prize.x - (i*machine.b.x)) % machine.a.x == 0 and \
-            (machine.prize.y - (i*machine.b.y)) % machine.a.y == 0:
-            costs2.append(int(i + 3*(machine.prize.x - (i*machine.b.x)) / machine.a.x))
-            print(len(machines2)-len(costs2))
-            break
+    # n = min(int(machine.prize.x/machine.b.x),int(machine.prize.y/machine.b.y))
+    # for i in range(n,0,-1):
+    #     if  (machine.prize.x - (i*machine.b.x)) % machine.a.x == 0 and \
+    #         (machine.prize.y - (i*machine.b.y)) % machine.a.y == 0:
+    #         costs2.append(int(i + 3*(machine.prize.x - (i*machine.b.x)) / machine.a.x))
+    #         print(len(machines2)-len(costs2))
+    #         break
 
 print("Deel 2 kostte " + str(time.time()-ts))
 
